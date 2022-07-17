@@ -1,11 +1,12 @@
 const express = require('express');
-
 const app = express();
 
-const port = 3000;
+const api = require('./src/data/api.json');
 
-app.get('/', (_req, res) => {
-  return res.json({message: 'api está funcionando'});
+const port = process.env.PORT || 3000;
+
+app.get('/equities', (_req, res) => {
+  return res.json(api);
 })
 
 app.listen(port, () => {
