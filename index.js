@@ -5,7 +5,7 @@ const api = require('./src/data/api.json');
 
 const port = process.env.PORT || 3000;
 
-app.get('/equities', (_req, res) => {
+app.get('/', (_req, res) => {
   return res.json(api);
 })
 
