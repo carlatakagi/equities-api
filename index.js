@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 
 app.get('/cliente/ativos/:codCliente', (req, res) => {
-  const { CodCliente } = req.params;
+  const { codCliente } = req.params;
 
   const filteredData = data.filter((equity) => CodCliente === equity.CodCliente)
   return res.json(filteredData);
