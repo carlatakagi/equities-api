@@ -8,7 +8,15 @@ const port = process.env.PORT || 3000;
 
 app.use(cors());
 
-app.get('/', (_req, res) => {
+app.get('/cliente/ativos/:codAtivo', (_req, res) => {
+  return res.json(api);
+})
+
+app.post('/investimentos/comprar', (_req, res) => {
+  return res.json(api);
+})
+
+app.post('/investimentos/vender', (_req, res) => {
   return res.json(api);
 })
 
