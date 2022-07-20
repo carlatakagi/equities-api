@@ -1,62 +1,62 @@
 [
   {
-    "id": 1,
-    "name": "XPBR31",
-    "quantity": 1,
-    "value": 94.31
+    "CodCliente": 1,
+    "CodAtivo": "XPBR31",
+    "QtdeAtivo": 0,
+    "Valor": 94.31
   },
   {
-    "id": 2,
-    "name": "BBDC4",
-    "quantity": 1,
-    "value": 16.44
+    "CodCliente": 2,
+    "CodAtivo": "BBDC4",
+    "QtdeAtivo": 0,
+    "Valor": 16.44
   },
   {
-    "id": 3,
-    "name": "PETR4",
-    "quantity": 1,
-    "value": 27.93
+    "CodCliente": 3,
+    "CodAtivo": "PETR4",
+    "QtdeAtivo": 1,
+    "Valor": 27.93
   },
   {
-    "id": 4,
-    "name": "BBSA3",
-    "quantity": 1,
-    "value": 33.28
+    "CodCliente": 4,
+    "CodAtivo": "BBSA3",
+    "QtdeAtivo": 4,
+    "Valor": 33.28
   },
   {
-    "id": 5,
-    "name": "MGLU3",
-    "quantity": 1,
-    "value": 2.78
+    "CodCliente": 5,
+    "CodAtivo": "MGLU3",
+    "QtdeAtivo": 0,
+    "Valor": 2.78
   },
   {
-    "id": 6,
-    "name": "VALE3",
-    "quantity": 1,
-    "value": 68.37
+    "CodCliente": 6,
+    "CodAtivo": "VALE3",
+    "QtdeAtivo": 1,
+    "Valor": 68.37
   },
   {
-    "id": 7,
-    "name": "NTCO3",
-    "quantity": 1,
-    "value": 15.65
+    "CodCliente": 7,
+    "CodAtivo": "NTCO3",
+    "QtdeAtivo": 0,
+    "Valor": 15.65
   },
   {
-    "id": 8,
-    "name": "MSFT34",
-    "quantity": 1,
-    "value": 57.40
+    "CodCliente": 8,
+    "CodAtivo": "MSFT34",
+    "QtdeAtivo": 1,
+    "Valor": 57.40
   },
   {
-    "id": 9,
-    "name": "AAPL34",
-    "quantity": 1,
-    "value": 80.58
+    "CodCliente": 9,
+    "CodAtivo": "AAPL34",
+    "QtdeAtivo": 1,
+    "Valor": 80.58
   },
   {
-    "id": 10,
-    "name": "GOGL34",
-    "quantity": 1,
-    "value": 79.95
+    "CodCliente": 10,
+    "CodAtivo": "GOGL34",
+    "QtdeAtivo": 1,
+    "Valor": 79.95
   }
 ]
