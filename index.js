@@ -10,8 +10,7 @@ app.use(cors());
 
 app.get('/cliente/ativos/:codCliente', (req, res) => {
   const { codCliente } = req.params;
-
-  const filteredData = data.filter((equity) => codCliente === equity.CodCliente)
+  const filteredData = data.filter((equity) => Number(codCliente) === equity.CodCliente)
   return res.json(filteredData);
 })
 
