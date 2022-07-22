@@ -3,9 +3,9 @@ import EquityController from '../controller/EquityController.js';
 
 const router = express.Router();
 
-router.get('/cliente/ativos/:codCliente', EquityController.getEquitiesByClientId);
+router.get('/client/ativos/:codCliente', EquityController.getEquitiesByClientId);
 
-router.get('/assets/ativo/:codAtivo', EquityController.getEquityById);
+router.get('/assets/ativos/:codAtivo', EquityController.getEquityById);
 
 router.post('/assets/investimentos/comprar', EquityController.buyEquity)
 
