@@ -18,6 +18,7 @@
   "bugs": {
     "url": "https://github.com/carlatakagi/equities-api/issues"
   },
+  "type": "module",
   "homepage": "https://github.com/carlatakagi/equities-api#readme",
   "dependencies": {
     "cors": "^2.8.5",
