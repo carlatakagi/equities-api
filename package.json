@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node index.js",
+    "dev:watch": "nodemon index.js",
+    "clean": "rm package-lock.json && rm -Rf node_modules"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,13 @@
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
   }
 }
