@@ -46,7 +46,7 @@ class EquityController {
       const { codCliente, codAtivo, qtdeAtivo } = req.body;
 
       const equity = equitiesData.find((equity) => equity.CodAtivo === codAtivo);
-
+      
       if (!equity) {
         return res.status(404).send({ message: `O ativo ${codAtivo} não existe` });
       }
@@ -153,7 +153,7 @@ class EquityController {
     }
   }
 
-  async makeWithdrawal (req, res, next) {
+  async makeWithdraw (req, res, next) {
     try {
       const { codCliente, Valor } = req.body;
 

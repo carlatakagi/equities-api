@@ -13,7 +13,7 @@ router.post('/assets/investimentos/vender', EquityController.sellEquity)
 
 router.post('/conta/deposito', EquityController.makeDeposit)
 
-router.post('/conta/saque', EquityController.makeWithdrawal)
+router.post('/conta/saque', EquityController.makeWithdraw)
 
 router.get('/conta/:codCliente', EquityController.getClientAccount)
 
