@@ -1,6 +1,3 @@
-# equities-api
-API de ações desenvolvida com informações fictícias.
-
 <h1 align="center">
      📈<a href="#" alt="blog"> Equities API </a>📉
 </h1>
